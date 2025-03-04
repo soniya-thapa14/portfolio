@@ -1,0 +1,136 @@
+*{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+body{
+    background-color: rgb(234, 216, 196);
+    text-transform :uppercase;
+}
+h2{
+    text-align: center;
+}
+
+h3{
+    margin: 5px;
+}
+.row{
+    box-shadow: 0 0 1px rgba(0, 0, 1, 2.5); 
+}
+.contact{
+    padding: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 2.5);
+}
+.info{
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2.5);
+}
+.icon{
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2.5);
+}
+.skill{
+    width: 600px;
+    margin: 60px auto;
+    color: #333;
+    padding: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 2.5);
+}
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0, 1px, 3px rgba(0, 0, 0, 0.12) ;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+}
+
+.html{
+    width: 70%;
+    animation: html 3s;
+}
+
+.css{
+    width: 60%;
+    animation: css 3s;
+}
+
+.python{
+    width: 70%;
+    animation: python 3s;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #333;  /* Icon color */
+    font-size: 24px;  /* Icon size */
+    transition: color 0.3s;
+}
+
+/* Hover colors for each platform */
+.fa-linkedin:hover {
+    color: #0077b5;
+}
+
+.fa-instagram:hover {
+    color: #e4405f;
+}
+
+.fa-facebook:hover {
+    color: #1877f2;
+}
+
+.fa-github:hover {
+    color: #333;
+}
